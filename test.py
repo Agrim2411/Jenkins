@@ -8,7 +8,7 @@ class Testsum(unittest.TestCase):
     def test_sum2(self):
         result2 = sum(1,2,3)
         self.assertEqual(result2, 6)
-    def test_factorial3(self):
+    def test_sum3(self):
         result3 = sum(20,30,100)
         self.assertEqual(result3, 150)
 
